@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.titulo{
+  font-size: 50px;
+  color: blue;
+  text-align: center ;
+}
+.tituloNome{
+  color: red;
+  background-color: rgba(0, 0, 0, 0.664);
+
+ }
+.text{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
