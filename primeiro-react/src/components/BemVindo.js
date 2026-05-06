@@ -1,7 +1,7 @@
 function BemVindo(props){
     return(
         <div>
-            <p> seja bem vindo, {props.nome}</p>
+            <h1> seja bem vindo, {props.nome}</h1>
         </div>
     )
 }
