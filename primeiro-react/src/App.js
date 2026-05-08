@@ -1,11 +1,10 @@
 import './App.css';
-import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
-  const name = "gabriel"
   return (
     <div className="App">
-      <Pessoa nome="gabriel" idade="17" peso="56kg"></Pessoa>
+      <List></List>
     </div>
   );
 }

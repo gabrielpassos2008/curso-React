@@ -1,0 +1,6 @@
+.item {
+  margin-bottom: 10px;
+  transition: 0.2s;
+  padding-inline: 10px;
+  color: rgb(255, 115, 0);
+}
