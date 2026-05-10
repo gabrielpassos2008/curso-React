@@ -1,9 +1,9 @@
 import styles from './botao.module.css'
 
-function Botao({ conteudo }) {
+function Botao({ conteudo , evento}) {
     return (
         <>
-            <button className={styles.btn} type="submit">{conteudo}</button>
+            <button onClick={evento} className={styles.btn} type="submit">{conteudo}</button>
         </>
     );
 }
