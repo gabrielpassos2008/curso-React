@@ -1,0 +1,6 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 4%;
+}
