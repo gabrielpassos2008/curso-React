@@ -1,6 +1,7 @@
+import Botao from "./Botao"
 function FormLogin() {
     return (
-        <div>
+        <>
             <form>
                 <h2>Faça seu login:</h2>
                 <label>Email:</label>
@@ -9,9 +10,9 @@ function FormLogin() {
                 <label>Senha:</label>
                 <input type="text" name="senha"></input>
 
-                <button type="submit">Logar</button>
+                <Botao conteudo="Logar"></Botao>
             </form>
-        </div>
+        </>
     );
 }
 
