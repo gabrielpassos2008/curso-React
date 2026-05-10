@@ -1,14 +1,10 @@
 import Botao from "../botao/Botao"
 import Input from "../input/Input";
-import styles from "./formLogin.module.css"
-import {useState} from "react"
+//import styles from "./formLogin.module.css"
+
 function FormLogin() {
 
-    const [nome, setNome] = useState()
-    const [senha, setSenha] = useState()
 
-    console.log(senha)
-    console.log(nome)
     return (
         <>
             <form>
