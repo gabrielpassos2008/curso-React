@@ -1,10 +1,10 @@
-import './App.css';
-import List from './components/List';
+import './App.css'
+import ConteinerLogin from './components/conteiner/ConteinerLogin';
 
 function App() {
   return (
     <div className="App">
-      <List></List>
+      <ConteinerLogin></ConteinerLogin>
     </div>
   );
 }
