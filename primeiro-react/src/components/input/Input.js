@@ -3,7 +3,7 @@ import styles from "./input.module.css"
 function Input({tipo,nome}){
     return(
         <>
-            <input type={tipo} name={nome}></input>
+            <input className={styles.campo} type={tipo} name={nome}></input>
         </>
     );
 }
