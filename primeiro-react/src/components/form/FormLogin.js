@@ -1,4 +1,5 @@
 import Botao from "../botao/Botao"
+import Input from "../input/Input";
 import styles from "./formLogin.module.css"
 function FormLogin() {
     return (
@@ -6,11 +7,10 @@ function FormLogin() {
             <form>
                 <h2>Faça seu login:</h2>
                 <label>Email:</label>
-                <input type="text" name="email"></input>
+                <Input tipo="text" nome="email"></Input>
 
                 <label>Senha:</label>
-                <input type="text" name="senha"></input>
-
+                <Input tipo="text" nome="senha"></Input>
                 <Botao conteudo="Logar"></Botao>
             </form>
         </>
