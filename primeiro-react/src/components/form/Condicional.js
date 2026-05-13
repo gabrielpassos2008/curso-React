@@ -3,10 +3,12 @@ import { useState } from "react"
 function Condicional(){
     
     const [email, setEmail] = useState()
+    const [userEmail, SetUserEmail] = useState()
 
     function enviarEmail(evento){
         evento.preventDefault()
-        console.log('testando')
+        SetUserEmail(email)
+        console.log(userEmail)
     }
     
     return(
@@ -17,6 +19,11 @@ function Condicional(){
                 <input type="email" placeholder="digite seu e-mail"  onChange={(evento)=> setEmail(evento.target.value)}></input>
                 <button type="submit" onClick={enviarEmail }>Enviar email</button>
             </form>
+            {userEmail && (
+                <div>
+                    e email do usuario e {userEmail}
+                </div>
+            )}
 
         </>
     )
